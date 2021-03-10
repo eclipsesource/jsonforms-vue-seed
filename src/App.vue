@@ -1,12 +1,12 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <h1>JSON Forms Vue 3 Typescript</h1>
+  <h1>JSON Forms Vue 3</h1>
   <div class="myform">
     <json-forms
-      v-bind:data="data"
-      v-bind:renderers="renderers"
-      v-bind:schema="schema"
-      v-bind:uischema="uischema"
+      :data="data"
+      :renderers="renderers"
+      :schema="schema"
+      :uischema="uischema"
       @change="onChange"
     />
   </div>
@@ -54,11 +54,11 @@ const schema = {
     },
     recurrence: {
       type: "string",
-      enum: ["Never", "Daily", "Weekly", "Monthly"],
-      description: "After completion a copy of this task will be created with due date according this this value."
+      enum: ["Never", "Daily", "Weekly", "Monthly"]
     },
     recurrenceInterval: {
       type: "integer",
+      description: "Days until recurrence"
     },
   },
 };
