@@ -168,7 +168,6 @@ export default defineComponent({
 }
 
 .vertical-layout {
-  width: 300px;
   margin-left: 10px;
   margin-right: 10px;
 }
