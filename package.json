@@ -8,9 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@jsonforms/core": "^2.5.2-alpha.0",
-    "@jsonforms/vue2": "^2.5.2-alpha.0",
-    "@jsonforms/vue2-vanilla": "^2.5.2-alpha.0",
+    "@jsonforms/core": "^2.5.2",
+    "@jsonforms/vue2": "^2.5.2",
+    "@jsonforms/vue2-vanilla": "^2.5.2",
     "@vue/composition-api": "^1.0.0-rc.3",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
