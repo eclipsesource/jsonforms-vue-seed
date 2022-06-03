@@ -11,9 +11,12 @@
     "@jsonforms/core": "^3.0.0-beta.1",
     "@jsonforms/vue": "^3.0.0-beta.1",
     "@jsonforms/vue-vanilla": "^3.0.0-beta.1",
+    "ajv": "^8.6.1",
     "core-js": "^3.6.5",
+    "tslib": "2.4.0",
     "vue": "^3.2.26",
-    "ajv": "^8.6.1"
+    "vue-form-json-schema": "2.9.5",
+    "yaml": "2.1.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",
