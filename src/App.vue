@@ -15,7 +15,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "@vue/composition-api";
+import { defineComponent } from "vue";
 import { JsonForms, JsonFormsChangeEvent } from "@jsonforms/vue2";
 import {
   defaultStyles,
