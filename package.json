@@ -14,20 +14,18 @@
     "@jsonforms/core": "3.5.1",
     "@jsonforms/vue": "3.5.1",
     "@jsonforms/vue-vanilla": "3.5.1",
-    "ajv": "^8.6.1",
+    "ajv": "^8.17.1",
     "core-js": "^3.40.0",
     "vue": "3.5.13"
   },
   "devDependencies": {
+    "@types/node": "^22.10.7",
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vitejs/plugin-vue-jsx": "^4.1.1",
-    "@vue/compiler-sfc": "3.4.15",
-    "@vue/eslint-config-typescript": "^12.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^9.20.1",
-    "typescript": "~5.2.2",
+    "@vue/compiler-sfc": "3.5.13",
+    "typescript": "~5.7.3",
     "vite": "^6.0.7"
   }
 }
