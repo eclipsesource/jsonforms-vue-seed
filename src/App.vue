@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, provide } from "vue";
 import { JsonForms, JsonFormsChangeEvent } from "@jsonforms/vue";
-import { defaultStyles, vanillaRenderers } from "@jsonforms/vue-vanilla";
+import { defaultStyles, mergeStyles, vanillaRenderers } from "@jsonforms/vue-vanilla";
 
 const renderers = Object.freeze([
   ...vanillaRenderers,
@@ -48,8 +48,11 @@ const onChange = (event: JsonFormsChangeEvent) => {
   data.value = event.data;
 };
 
+// mergeStyles combines all classes from both styles definitions into one
+const myStyles = mergeStyles(defaultStyles, { control: { label: "mylabel" } });
+
 // Provide styles to child components
-provide('styles', defaultStyles);
+provide('styles', myStyles);
 </script>
 
 <template>
