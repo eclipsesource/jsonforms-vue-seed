@@ -9,7 +9,4 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  optimizeDeps: {
-    include: ["@jsonforms/core", "@jsonforms/vue", "@jsonforms/vue-vanilla"],
-  },
 });
