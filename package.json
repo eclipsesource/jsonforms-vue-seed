@@ -11,9 +11,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@jsonforms/core": "3.5.1",
-    "@jsonforms/vue": "3.5.1",
-    "@jsonforms/vue-vanilla": "3.5.1",
+    "@jsonforms/core": "3.6.0-beta.0",
+    "@jsonforms/vue": "3.6.0-beta.0",
+    "@jsonforms/vue-vanilla": "3.6.0-beta.0",
     "ajv": "^8.17.1",
     "core-js": "^3.40.0",
     "vue": "3.5.13"
