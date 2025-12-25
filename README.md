@@ -13,8 +13,8 @@ It is based on the `vue create` Hello World project.
 - Sync your used node version with one in `.nvmrc`
   (e.g. `nvm install && nvm use` from this repo's root, if you're using [nvm](https://github.com/nvm-sh/nvm)).
 - Execute `npm ci` to install the prerequisites.
-- Execute `npm run serve` to start the application.
+- Execute `npm run dev` to start the application.
 
-Browse to http://localhost:8080 to see the application in action.
+Browse to http://localhost:5173 to see the application in action.
 
 For more information please see the JSON Forms Vue [documentation](https://jsonforms.io/docs/integrations/vue).
