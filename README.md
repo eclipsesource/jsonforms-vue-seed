@@ -9,6 +9,9 @@ It is based on the `vue create` Hello World project.
 
 `src/App.vue` contains the JSON Forms specific code.
 
+
+- Sync your used node version with one in `.nvmrc`
+  (e.g. `nvm install && nvm use` from this repo's root, if you're using [nvm](https://github.com/nvm-sh/nvm)).
 - Execute `npm ci` to install the prerequisites.
 - Execute `npm run serve` to start the application.
 
