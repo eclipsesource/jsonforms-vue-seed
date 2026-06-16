@@ -10,7 +10,8 @@ It is based on the `vue create` Hello World project.
 `src/App.vue` contains the JSON Forms specific code.
 
 - Execute `npm ci` to install the prerequisites.
-- Execute `npm run serve` to start the application.
+- Execute `npm run dev` to start the application in dev mode.
+- Execute `npm run build && npm run preview` to build the application and serve it on <http://localhost:4173/>
 
 Browse to http://localhost:8080 to see the application in action.
 
